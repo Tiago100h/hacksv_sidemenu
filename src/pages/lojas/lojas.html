@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lojas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+    <ion-card>
+      <img src="{{item.img}}" />
+      <div class="card-title">{{item.nome}}</div>
+      <div class="card-subtitle">{{item.promocoes}}</div>
+    </ion-card>
+  </button>  
+
+</ion-content>
