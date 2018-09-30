@@ -18,7 +18,7 @@
   </ion-card>
 
 
-  <ion-card style="background-color:rgba(0, 0, 0, 0.7);" ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+  <ion-card style="background-color:rgba(0, 0, 0, 0.7);float:right; width: 95%; margin:10px; margin-top:-1px" ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
 
     <img src="{{item.img}}" />
     <div class="card-title">{{item.nome}}</div>

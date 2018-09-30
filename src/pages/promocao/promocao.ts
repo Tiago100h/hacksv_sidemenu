@@ -25,9 +25,6 @@ export class PromocaoPage {
       desconto: "15% em dois lanches"
     });
 
-    console.log(this.selectedItem);
-
-
   }  
 
 }

@@ -16,7 +16,7 @@ export class PontosPage {
     this.items = [];
     this.items.push({
       img: '../../assets/imgs/desconto.png',
-      nome: "Rick's burguer",
+      nome: "Burguer King",
       pts: "50pts"
     });
     this.items.push({
