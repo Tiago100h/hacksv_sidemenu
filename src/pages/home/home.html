@@ -4,15 +4,35 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="showToast('middle')">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <ion-card *ngFor="let loja of lojas">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <img src="{{loja.imagem}}"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        {{loja.nome}}
+      </ion-card-title>
+      <p>
+        {{loja.descricao}}
+      </p>
+    </ion-card-content>
+
+    <ion-item>
+      <ion-icon name='ios-cash' item-start style="color: #62b33a"></ion-icon>
+      Cupons gerados
+      <ion-badge item-end>{{loja.cuponsGerados}}</ion-badge>
+    </ion-item>
+
+  </ion-card>
+
 </ion-content>
