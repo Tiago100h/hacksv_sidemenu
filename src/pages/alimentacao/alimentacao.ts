@@ -15,24 +15,24 @@ export class AlimentacaoPage {
 
     this.items = [];
     this.items.push({
-      nome: "Centauro",
+      nome: "McDonald's",
       promocoes: "41 promoções",
-      img: "assets/imgs/centauro.jpg"
+      img: "assets/imgs/mcdonald.jpg"
     });
     this.items.push({
-      nome: "CacauShow",
+      nome: "BoB'S",
       promocoes: "31 promoções",
-      img: "assets/imgs/cacaushow.jpg"
+      img: "assets/imgs/bobs.jpg"
     });
     this.items.push({
-      nome: "C&A",
+      nome: "Burguer King",
       promocoes: "12 promoções",
-      img: "assets/imgs/cea.jpg"
+      img: "assets/imgs/bk.jpg"
     });
     this.items.push({
-      nome: "Bahamas",
+      nome: "KFC",
       promocoes: "25 promoções",
-      img: "assets/imgs/bahamas.jpg"
+      img: "assets/imgs/kfc.jpg"
     });
 
   }
