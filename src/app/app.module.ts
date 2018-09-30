@@ -10,6 +10,8 @@ import { AlimentacaoPage } from '../pages/alimentacao/alimentacao';
 import { LanchonetePage } from '../pages/lanchonete/lanchonete';
 import { SlidesPage } from '../pages/slides/slides';
 import { LoginPage } from '../pages/login/login';
+import { PontosPage } from '../pages/pontos/pontos';
+import { PromocaoPage } from '../pages/promocao/promocao';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlimentacaoPage,
     LanchonetePage,
     SlidesPage,
-    LoginPage
+    LoginPage,
+    PontosPage,
+    PromocaoPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlimentacaoPage,
     LanchonetePage,
     SlidesPage,
-    LoginPage
+    LoginPage,
+    PontosPage,
+    PromocaoPage
   ],
   providers: [
     StatusBar,
