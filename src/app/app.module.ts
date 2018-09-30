@@ -4,11 +4,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { LojasPage } from '../pages/lojas/lojas';
 import { LojaPage } from '../pages/loja/loja';
 import { AlimentacaoPage } from '../pages/alimentacao/alimentacao';
 import { LanchonetePage } from '../pages/lanchonete/lanchonete';
+import { SlidesPage } from '../pages/slides/slides';
+import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,11 +18,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     LojasPage,
     LojaPage,
     AlimentacaoPage,
-    LanchonetePage
+    LanchonetePage,
+    SlidesPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -31,11 +33,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     LojasPage,
     LojaPage,
     AlimentacaoPage,
-    LanchonetePage
+    LanchonetePage,
+    SlidesPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
